@@ -14,25 +14,34 @@ header {
 
 nav ul {
     list-style: none;
-    padding: 0;
+    padding: 0px;
     background: #444;
+    height: 30px;
+    text-align: justify;
     text-align: center;
 }
 
 nav ul li {
     display: inline;
-    margin: 0 10px;
+    margin: 10px;
+    margin-top: 100px;
+    text-align: center;
+
+    
 }
+
 
 
 nav ul li a {
     color: #fff;
     text-decoration: none;
-    font-size: medium;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
     transition: font-size 0.8 ease;
 }
 nav ul li a:hover {
-    color: brown;
+    color: pink;
     font-size: larger;
     
     
