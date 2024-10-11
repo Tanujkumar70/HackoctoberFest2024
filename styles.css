@@ -24,9 +24,18 @@ nav ul li {
     margin: 0 10px;
 }
 
+
 nav ul li a {
     color: #fff;
     text-decoration: none;
+    font-size: medium;
+    transition: font-size 0.8 ease;
+}
+nav ul li a:hover {
+    color: brown;
+    font-size: larger;
+    
+    
 }
 
 main {
